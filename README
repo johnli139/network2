@@ -8,9 +8,10 @@ Included:
 
 Usage:
 
-# mkidr -p /root/network2 && cd /root/network2
+# cd /root
 # git clone https://github.com/johnli139/network2
+# cd network2
 change host names in file "hosts"
 change IF variable in files "begin.sh" and "end.sh"
-sut up passwordless root access via ssh to needed hosts
+set up passwordless root access via ssh to needed hosts
 # ./run.sh
